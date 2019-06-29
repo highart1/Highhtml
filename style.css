@@ -1,0 +1,38 @@
+@import "style2.css";
+h1 {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: aqua;
+    transition: color 10s
+
+}
+.try {
+    font-size: 30px;
+    color: azure;
+    text-align: center;
+}
+#try {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    transition: color 3s
+}
+#try:hover {
+    color: blueviolet
+
+}
+h1:hover {
+    font-family: 'Comic Sans MS'
+}
+div {
+    background-color: azure;
+    animation-name: GagalTotal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite 
+}
+@keyframes GagalTotal {
+    from {background-color: azure;}
+    to {background-color: black}
+}
+    
+    
